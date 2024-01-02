@@ -1,0 +1,599 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+:root{
+
+    --off-white: #f5f5f5;
+    --primary: #dd7373;
+
+}
+
+html{
+
+    font-size: 10px;
+    height: 100%;
+    min-height: 100%;
+
+}
+
+.container{
+
+    width: 80%;
+    margin: 2rem auto;
+
+}
+
+
+.card{
+
+    background-color: #fff;
+    box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.28);
+
+}
+
+.card-image{
+
+    height: 35rem;
+    overflow: hidden;
+    
+}
+
+.card-image img{
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 15px;
+
+}
+
+.card-content{
+
+    padding: 0.5rem;
+    padding-left: 2.5rem;
+
+}
+
+.blog-details,
+.icon-text{
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.icon-text{
+
+    margin-right: 5px;
+
+}       
+
+.icon-text .icon{
+
+    color: var(--primary);
+    margin-right: 0.4rem;
+
+}
+
+.blog-cta{
+
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.button-btn2{
+
+    padding: 1.6rem 4rem;
+    display: inline-block;
+    background-color: var(--primary);
+    border-radius: 0.6rem;
+    color: var(--off-white);
+    text-decoration: none;
+
+}
+
+.button-btn2:hover, .button-btn2.active{
+
+    filter: invert(1);
+
+}
+
+h2,h3{
+
+    cursor: pointer;
+
+}
+
+h3:hover{
+
+    filter: invert(1);
+
+}
+
+.share-button{
+
+    width: 5rem;
+    height: 5rem;
+    border: 0.1rem solid var(--primary);
+    border-radius: 50%;
+    background-color: transparent;
+    cursor: pointer;
+    color: var(--primary);
+    outline: none;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.share-button:focus{
+
+    background-color: var(--primary);
+    color: var(--off-white);
+
+}
+
+a{
+
+    text-decoration: none;
+
+}
+
+button{
+
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+
+.icon-icon{display: block;}
+body {
+
+    background-color: #cccccc;
+    height: 100%;
+    width: 100%;
+    font-size: 1.6rem;
+
+}
+table {
+    
+    border-spacing: 0;
+}
+td {
+    padding: 0;
+}
+
+.main{
+
+    background-color: #ffffff; 
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+    border-spacing: 0;
+    font-family: sans-serif;
+    color: #4a4a4a;       
+
+}
+
+.two-columns{
+
+    text-align: center;
+    font-size: 0;
+    width: 100%;
+    
+}
+
+.two-columns .column {
+
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    vertical-align: top;
+    text-align: left;
+    font-size: 0; 
+    margin: 0;
+    box-sizing: border-box;
+
+    
+}
+
+.button{
+
+    background-color: #005fa7;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 22px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    filter: grayscale(100%);
+
+
+}
+
+.button:hover{
+
+    filter: none;
+
+}
+
+.two-columns.last{
+
+    padding: 0;
+    border-top: 2px solid #007f9a;
+    
+
+}
+
+
+
+.two-columns .content{
+
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    
+
+}
+
+.two-columns .content p{
+
+    max-width: 100%;
+    overflow-wrap: break-word;
+    
+
+}
+
+#facebook{
+
+    filter: grayscale(100%);
+
+}
+
+#facebook:hover{
+
+    filter: none;
+
+}
+
+#category1{
+
+    filter: grayscale(100%);
+    transition: transform 0.3s ease, filter 0.3s ease, opacity 0.3s ease; /* Transiciones suaves para varios efectos */
+
+
+}
+
+#category1:hover{
+
+    filter: none;
+
+}
+
+
+.tag{
+
+    margin-left: 5px;
+    background-color: #00954f;
+
+}
+
+h2{
+
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    color: #024b94;
+
+}
+h3{
+
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    color: #024b94;
+
+}
+
+#suscribirse:hover{
+
+    color: #024b94;
+
+}
+
+.arrow-link {
+
+    display: block;
+  
+}
+
+p{
+
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5em;
+    font-size: 14px;
+
+}
+
+h1,h2,h3,h4,h4,h5,h6{
+
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.titulo{
+
+    width: 100%;
+    max-width: 100%;
+    padding-right: 10px;
+    padding-top: 0px;
+    
+}
+
+
+.card-content .excerpt {
+
+    max-width: 100%;
+    word-wrap: break-word;
+
+}
+
+
+@media screen and (min-width: 900px) {
+
+    .card{
+
+        display: flex;
+        height: 42rem;
+        overflow: hidden;
+        max-height: 100%;
+
+    }
+
+    .card-image{
+
+        height: auto;
+        flex: 1;
+
+    }
+
+    .card-content{
+
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+}
+
+
+
+.principal{
+
+    text-align: center;
+    justify-content: center;
+
+}
+
+
+
+.author{
+
+    display: flex;
+    align-items: center;
+
+}
+
+.avatar{
+
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+
+}
+
+.author-name{
+
+    color: #0071aa;
+    font-size: 12px;
+
+}
+
+.publish-date{
+
+    font-size: 12px;
+
+}
+
+.share{
+
+    position: relative;
+
+}
+
+.share-button{
+
+    padding: 2px;
+    border-radius: 30px;
+    font-size: 12px;
+    transition: all 0.25s ease;
+    margin-left: 24px;
+
+}
+
+.share-button:hover, .share-button.active{
+
+    color: black;
+    background: white;
+
+}
+
+.share-option{
+
+    --scale: 0;
+    --translateX: 0%;
+    --translateY: 0%;
+
+    background: darkblue;
+    position: absolute;
+    bottom: calc(100% +20px);
+    left: 25%;
+    transform-origin: top;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px -5px darkblue;
+    transform-origin: bottom;
+    visibility: hidden;
+    transition: all 0.25s ease;
+
+}
+
+.share-option.active{
+
+    --scale: 1;
+    visibility: visible;
+
+}
+
+.share-option::after{
+
+    content: '';
+    background: darkblue;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -60%) rotate(45deg);
+
+}
+
+.share-option span{
+
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: white;
+    margin-right: 5px;
+
+}
+
+.share-option i{
+
+    font-size: 22px;
+
+
+}
+
+.share-option i:hover,
+.article-title:hover,
+.author-name:hover{
+
+    filter: invert(1);
+
+}
+
+.articulos h2:hover{
+
+    filter: invert(1);
+    cursor: pointer;
+
+}
+
+
+.autora{
+
+    display: flex;
+    align-items: center;
+
+}
+
+
+.conten-sub{
+
+    width: 100%;
+    height: 100%;
+    background: #008886;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.conten-sub h2{
+
+    color: #ffffff;
+    font-size: 30px;
+
+}
+
+.conten-sub form{
+
+    width: 100%;
+    max-width: 440px;
+    display: flex;
+
+}
+
+.conten-sub form .campo{
+
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px 10px 10px 10px;
+    outline: 0px;
+
+}
+
+.conten-sub form .btn-sub{
+
+    padding: 12px;
+    border: none;
+    font-size: 16px;
+    border-radius: 10px 10px 10px 10px;
+    background: #0071aa;
+    color: #ffffff;
+    cursor: pointer;
+    outline: 0px;
+    margin-left: 5px;
+
+}
+
+.conten-sub form .btn-sub:hover{
+
+        filter: invert(1);
+
+}
+
+.subtitle {
+    min-width: 150px; /* Ancho mínimo para los subtítulos */
+    display: inline-block;
+    font-weight: bold; /* Opcional: Puedes hacer que los subtítulos estén en negrita */
+    margin-right: 20px; /* Espacio a la derecha solo para los subtítulos */
+}
+
+#subtitle{
+
+    font-weight: bold; /* Opcional: Puedes hacer que los subtítulos estén en negrita */
+
+
+}
